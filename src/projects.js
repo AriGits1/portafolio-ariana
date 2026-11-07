@@ -24,15 +24,15 @@ export const projects = [
   {
     id: 'malware', category: 'CIBERSEGURIDAD · INVESTIGACIÓN',
     title: 'Detección de malware Android',
-    text: 'Una investigación sobre cómo distintos modelos de Machine Learning abordan la detección de software malicioso en Android.',
-    tech: ['Machine Learning', 'CICMaldroid2020', 'Embeddings'],
+    text: 'Investigación individual que compara seis modelos de Machine Learning para detectar malware Android con CICMalDroid2020, incluyendo la técnica de Stacking.',
+    tech: ['Machine Learning', 'CICMalDroid2020', 'Stacking'],
     team: 'Investigación individual', people: 'Ariana Mercado.', peopleLabel: 'Autora',
     problem: 'Comparar enfoques de Machine Learning para detectar malware en aplicaciones Android.',
-    solution: 'Investigación con CICMaldroid2020 que incluye métodos tradicionales y enfoques basados en embeddings. El diagrama compartido documenta el flujo de preprocesamiento, modelado y evaluación de los modelos tradicionales.',
-    results: 'La figura compartida muestra el F1-score por clase de Decision Tree, Random Forest, Extra Trees, XGBoost, LightGBM y Stacking. La imagen conserva los valores originales; no se aportan aquí resultados de los enfoques basados en embeddings.',
+    solution: 'Comparación de Decision Tree, Random Forest, Extra Trees, XGBoost, LightGBM y Stacking utilizando el dataset CICMalDroid2020. El diagrama documenta el flujo de preprocesamiento, modelado y evaluación.',
+    results: 'Stacking obtuvo el mejor desempeño en mis experimentos entre los seis modelos comparados. La figura muestra el F1-score por clase de cada modelo y conserva los valores originales de la investigación.',
     images: [
       { file: 'malware/f1-modelos.png', alt: 'Mapa de calor con F1-score por clase y modelo: Adware, Banking, Riskware, Benign y SMS Malware.', caption: 'F1-score por clase y modelo, según la figura de la investigación.' },
-      { file: 'malware/metodologia.png', alt: 'Diagrama de metodología con CICMaldroid2020, eliminación de duplicados, división estratificada, normalización, modelos y evaluación.', caption: 'Metodología de comparación de modelos tradicionales.' },
+      { file: 'malware/metodologia.png', alt: 'Diagrama de metodología con CICMalDroid2020, eliminación de duplicados, división estratificada, normalización, seis modelos y evaluación.', caption: 'Metodología de comparación de los seis modelos, incluido Stacking.' },
     ],
   },
   {

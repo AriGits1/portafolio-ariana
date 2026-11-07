@@ -3,7 +3,7 @@
 Soy estudiante de Ciencias de la Computación en la Universidad Nacional de Ingeniería (UNI), Perú. En este portafolio comparto una selección de proyectos relacionados con Machine Learning, ciberseguridad y robótica:
 
 - **Análisis inteligente de tráfico urbano:** detección y conteo de vehículos, métricas y recomendaciones. Proyecto desarrollado con Dery Gonzales y Mathias Vilca.
-- **Detección de malware Android:** investigación individual con CICMaldroid2020, modelos tradicionales y enfoques basados en embeddings.
+- **Detección de malware Android:** investigación individual que compara seis modelos de Machine Learning con CICMalDroid2020: Decision Tree, Random Forest, Extra Trees, XGBoost, LightGBM y Stacking. Stacking obtuvo el mejor desempeño en mis experimentos.
 - **Navegación autónoma con ROS1:** planificación de rutas y evasión de obstáculos con JetAuto Pro, LIDAR y RViz.
 
 La página está desarrollada con **React, Vite, CSS y SVG**. Tiene diseño responsive, detalles desplegables y galerías con imágenes de los proyectos.
