@@ -28,6 +28,6 @@ npm run preview
 
 En **Settings → Pages**, selecciona **GitHub Actions** como origen. El workflow publica el sitio al subir cambios a `main`; también puede ejecutarse desde **Actions → Publicar en GitHub Pages → Run workflow**.
 
-La URL pública se añadirá cuando el primer despliegue esté confirmado.
+[Ver mi portafolio](https://arigits1.github.io/portafolio-ariana/)
 
 [Mi perfil de LinkedIn](https://www.linkedin.com/in/ariana-mercado-taype)
